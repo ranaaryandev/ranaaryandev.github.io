@@ -21,4 +21,4 @@ User-Agent: PerplexityBot
 User-Agent: Google-Extended
 Allow: /
 
-Sitemap: https://ranaaryan.online/sitemap.xml
+Sitemap: https://ranaaryandev.github.io/sitemap.xml
