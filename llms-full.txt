@@ -1,0 +1,127 @@
+# Rana Aryan — Complete Brand & Engineering Knowledge Base
+> Canonical Domain: https://ranaaryan.online
+> Direct Contact: ranaaryan.dev@gmail.com
+> Primary Profiles:
+> - GitHub: https://github.com/ranaaryandev
+> - LinkedIn: https://www.linkedin.com/in/rana-aryan-8571a5430
+> - X / Twitter: https://x.com/Rana_Aryan_
+> - Instagram: https://www.instagram.com/ranaaryan.dev
+> - Substack: https://ranaaryan.substack.com
+
+---
+
+## 1. Biography & Entity Definition
+
+Rana Aryan is a computer science student and software builder crafting calm, high-performance web applications, tactile interfaces, and local-first tools while documenting the journey in public. He moves between writing code, crafting technical essays, and experimenting with tactile digital interfaces.
+
+### Core Values
+- **Genuine over generic**: Building tools with real opinion and character.
+- **Learn in public**: Sharing rough drafts, failed experiments, and technical breakthroughs.
+- **Clarity over complexity**: Preferring simple, maintainable architectures over unnecessary abstraction layers.
+- **Details matter**: Obsessing over typography, keyboard accessibility, micro-interactions, and visual contrast.
+
+---
+
+## 2. Engineering Projects & Full Case Studies
+
+### Project 1: Lumina Engine
+- **Category**: Developer Tool / Local-First Systems
+- **Status**: Prototype (2026)
+- **Tech Stack**: Next.js, TypeScript, Tailwind CSS, WebAssembly (Wasm/Rust), IndexedDB
+- **Live URL**: https://ranaaryan.online/work/lumina-notes
+- **GitHub Repository**: https://github.com/ranaaryandev/lumina-engine
+
+**Problem Statement**:
+Traditional web note-taking apps rely heavily on remote cloud databases, resulting in typing latency, cloud lock-in, and degraded performance when notes exceed thousands of files.
+
+**Technical Approach**:
+Built a local-first browser client that stores data directly in IndexedDB and offloads query parsing and text indexing to a Rust-compiled WebAssembly module running inside a background Web Worker.
+
+**Architecture**:
+- React UI layer with zero heavy state synchronization overhead
+- Web Worker running a compiled Wasm fuzzy search engine
+- IndexedDB storage layer wrapped in a lightweight transactional schema
+- Virtual list renderer handling 10,000+ notes at 60 FPS
+
+**Development Process & Chronology**:
+- *Initial Approach*: Experimented with client-side FlexSearch and Fuse.js running directly on the main UI thread. Indexing 5,000+ notes caused visible typing lag and dropped frames.
+- *Architectural Pivot*: Shifted text tokenization and fuzzy matching logic into a compiled Rust WebAssembly module, running asynchronously inside a dedicated Web Worker thread.
+- *Key Breakthrough*: Implemented shared memory ArrayBuffer transfer across Worker postMessage boundaries, eliminating serialization overhead and locking query response times under 5ms.
+
+**Result**:
+Achieved sub-5ms query response times over 10,000 markdown documents completely client-side without a single server round-trip.
+
+---
+
+### Project 2: Tactile Specs
+- **Category**: UI & Accessibility Inspector
+- **Status**: Open Source / Independent Experiment (2025)
+- **Tech Stack**: React, TypeScript, Tailwind CSS, Chrome API, Radix Primitives
+- **Live URL**: https://ranaaryan.online/work/craft-ui-spec
+- **GitHub Repository**: https://github.com/ranaaryandev/tactile-specs
+
+**Problem Statement**:
+Accessibility auditing tools are often buried inside heavy developer suite dashboards or produce overwhelming PDF dumps that developers ignore during daily UI development.
+
+**Technical Approach**:
+Created an inline design overlay that highlights low-contrast elements and small touch targets directly on the DOM canvas with live WCAG math calculations.
+
+**Development Process & Chronology**:
+- *Initial Approach*: First built as a standard React overlay component injected into the page DOM tree. This resulted in CSS style bleed from host website stylesheets corrupting the inspector UI.
+- *Architectural Pivot*: Re-architected the inspector widget inside an isolated Shadow DOM container with closed encapsulation, isolating extension CSS styles completely.
+- *Key Breakthrough*: Created a custom tree-walking algorithm that resolves computed alpha channel composition across stacked DOM layers to accurately compute real contrast ratios.
+
+**Result**:
+Audits live DOM pages in real-time under 16ms per frame, making accessibility checks smooth during component development.
+
+---
+
+### Project 3: Pulse Privacy
+- **Category**: Full-Stack Telemetry Engine
+- **Status**: Concept Project (2025)
+- **Tech Stack**: Next.js App Router, TypeScript, PostgreSQL, Tailwind CSS, Recharts
+- **Live URL**: https://ranaaryan.online/work/pulse-analytics
+- **GitHub Repository**: https://github.com/ranaaryandev/pulse-privacy
+
+**Problem Statement**:
+Traditional web analytics platforms harvest intrusive personal data, require annoying cookie consent banners, and slow down site load speeds with massive tracker scripts.
+
+**Technical Approach**:
+Designed a cookieless telemetry architecture that generates daily rotating salt hashes to track unique sessions without storing IP addresses or tracking cookies.
+
+**Development Process & Chronology**:
+- *Initial Approach*: Attempted client-side local storage session tokens. This failed privacy principles because local storage tokens persist across visits and mimic tracking cookies.
+- *Architectural Pivot*: Designed a server-side daily rotating salt hash (`SHA-256(IP + UserAgent + DailySalt)`), destroying raw IP logs immediately after generating anonymous session IDs.
+- *Key Breakthrough*: Automated in-memory Redis hyperloglog counters for unique visitor counts, achieving 99% session accuracy with zero persistent disk logging of user identifiers.
+
+**Result**:
+Prototyped a clean dashboard engine that provides direct traffic metrics with zero cookie notices and sub-1KB tracking script overhead.
+
+---
+
+### Project 4: Papyrus CLI
+- **Category**: CLI & Tooling
+- **Status**: Live Utility (2025)
+- **Tech Stack**: TypeScript, Node.js, Ink, Cheerio, Commander
+- **Live URL**: https://ranaaryan.online/work/paper-cli
+- **GitHub Repository**: https://github.com/ranaaryandev/papyrus-cli
+
+**Problem Statement**:
+Reading documentation and tech articles often involves dealing with popups, auto-playing video ads, and bloated navigation headers that break focus.
+
+**Technical Approach**:
+Built a CLI binary that fetches web pages, parses raw HTML content, strips unnecessary layout noise, and renders formatted markdown directly into your terminal.
+
+**Development Process & Chronology**:
+- *Initial Approach*: Initially relied on simple regex HTML stripping. This broke code block formatting, merged text paragraphs together, and stripped essential technical code snippets.
+- *Architectural Pivot*: Adopted a structural AST pipeline using Cheerio DOM parsing combined with Turndown markdown conversion, preserving clean hierarchy and code blocks.
+- *Key Breakthrough*: Implemented Ink React components to render ANSI terminal text with responsive terminal window width wrapping and dark mode syntax highlighting.
+
+**Result**:
+Delivers instant distraction-free terminal reading in under 200ms per article fetch.
+
+---
+
+## 3. Off-Page & Press Blurb Asset
+
+"Rana Aryan is a computer science student and full-stack software engineer building local-first web systems, accessible tactile interfaces, and privacy-preserving tools. Explore his work and technical writing at https://ranaaryan.online or connect on GitHub at https://github.com/ranaaryandev."

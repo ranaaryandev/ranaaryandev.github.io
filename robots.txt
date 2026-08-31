@@ -1,0 +1,24 @@
+User-Agent: *
+Allow: /
+Disallow: /api/
+
+User-Agent: GPTBot
+User-Agent: ChatGPT-User
+User-Agent: CCBot
+User-Agent: Bytespider
+User-Agent: anthropic-ai
+User-Agent: Claude-Web
+User-Agent: ClaudeBot
+User-Agent: Diffbot
+User-Agent: FacebookBot
+User-Agent: Amazonbot
+User-Agent: Cohere-ai
+User-Agent: Omgilibot
+Disallow: /
+
+User-Agent: OAI-SearchBot
+User-Agent: PerplexityBot
+User-Agent: Google-Extended
+Allow: /
+
+Sitemap: https://ranaaryandev.github.io/sitemap.xml

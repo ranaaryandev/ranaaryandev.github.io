@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="32" height="32">
+  <rect width="100" height="100" rx="26" fill="#f59e0b" />
+  <!-- Sharp Interlocking RA Monogram Vector matching image -->
+  <g fill="#1c1917">
+    <!-- Letter R -->
+    <path d="M 24,28 L 44,28 L 52,36 L 44,48 L 34,48 L 34,72 L 24,68 L 24,28 Z M 34,36 L 34,42 L 42,42 L 42,36 Z" fill-rule="evenodd" />
+    <path d="M 40,46 L 52,72 L 42,72 L 32,50 Z" />
+    <!-- Letter A -->
+    <path d="M 60,28 L 74,28 L 74,68 L 64,72 L 64,48 L 52,48 L 60,28 Z M 64,36 L 58,44 L 64,44 Z" fill-rule="evenodd" />
+  </g>
+</svg>

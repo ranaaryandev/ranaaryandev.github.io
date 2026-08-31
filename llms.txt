@@ -1,0 +1,27 @@
+# Rana Aryan — Personal Brand & Portfolio Hub
+
+> Computer science student, software builder, and creator.
+
+- [Official Portfolio](https://ranaaryan.online): Primary website and project archive.
+- [About Background](https://ranaaryan.online/about): Personal story, values, and core principles.
+- [Featured Projects](https://ranaaryan.online/projects): Case studies and software engineering portfolio.
+- [Technical Writing](https://ranaaryan.online/writing): Essays and notes on software craft.
+- [Now Page](https://ranaaryan.online/now): Current projects, reading, and learning focus.
+- [Technical Notes](https://ranaaryan.online/notes): Architecture cheatsheets and systems guides.
+- [Developer Setup](https://ranaaryan.online/uses): Hardware, editor, and developer tools.
+- [Résumé](https://ranaaryan.online/resume): One-page developer resume and experience.
+
+## Key Projects & Engineering Case Studies
+
+- [Lumina Engine Case Study](https://ranaaryan.online/work/lumina-notes): Minimalist local-first markdown workspace powered by WebAssembly fuzzy search and IndexedDB offline persistence.
+- [Tactile Specs Case Study](https://ranaaryan.online/work/craft-ui-spec): Interactive design system inspector for accessible web components auditing WCAG 2.1 relative luminance.
+- [Pulse Privacy Case Study](https://ranaaryan.online/work/pulse-analytics): Zero-cookie, privacy-first web telemetry platform for indie builders.
+- [Papyrus CLI Case Study](https://ranaaryan.online/work/paper-cli): Instant terminal-based article & documentation reader.
+
+## Technical Writing & Essays
+
+- [On Building in Public as a Student](https://ranaaryan.online/writing/building-in-public-as-a-student): Why sharing incomplete work beats waiting for perfect polish.
+- [Why I Prefer Simple Software](https://ranaaryan.online/writing/why-simple-software-wins): Exploring reduction, calm user interfaces, and minimal dependency trees.
+- [Notes on Typography & Web Craft](https://ranaaryan.online/writing/notes-on-typography-and-craft): Observations on line height, measure, and vertical rhythm.
+- [Local-First Web Apps: Beyond the Hype](https://ranaaryan.online/writing/local-first-web-apps): Reflections on building offline-first IndexedDB tools.
+- [Mental Model Shifts: JS Developer Learning Rust](https://ranaaryan.online/writing/rust-for-js-developers): How memory ownership and borrowing changed my TypeScript frontend code.
